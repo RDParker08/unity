@@ -42,6 +42,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: housing and items
+    uniqueID: 2892763653
+    locked: 0
   - name: player
     uniqueID: 1263030405
     locked: 0
