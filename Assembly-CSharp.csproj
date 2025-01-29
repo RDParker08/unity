@@ -64,8 +64,10 @@
     <Compile Include="Assets\Scripts\Mechanics\PlayAudioClip.cs" />
     <Compile Include="Assets\Scripts\Core\Simulation.InstanceRegister.cs" />
     <Compile Include="Assets\Mod Assets\Mod Resources\Scripts\Platformer\PlatformerSpeedPad.cs" />
+    <Compile Include="Assets\rhys\player_move.cs" />
     <Compile Include="Assets\Mod Assets\Mod Resources\Scripts\Platformer\Jiggler.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerEnteredVictoryZone.cs" />
+    <Compile Include="Assets\rhys\test.cs" />
     <Compile Include="Assets\olu\test2.cs" />
     <Compile Include="Assets\Scripts\Mechanics\AnimationController.cs" />
     <Compile Include="Assets\Scripts\Core\Simulation.cs" />
