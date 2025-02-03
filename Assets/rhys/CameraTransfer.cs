@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class cameratransfer : MonoBehaviour
+public class CameraTransfer : MonoBehaviour
 {
     public Vector2 cameraChange;
-    public Vector2 playerChange;
-    private cameratransfer cam;
+    public Vector3 playerChange;
+    private Cameramovement cam;
     // Start is called before the first frame update
     void Start()
     {
-        cam = Camera.main.GetComponent<cameratransfer>();
+        cam = Camera.main.GetComponent<Cameramovement>();
     }
 
     // Update is called once per frame
@@ -23,9 +23,9 @@ public class cameratransfer : MonoBehaviour
     {
         if(other.CompareTag ("Player"))
         {
-            cam.minPosition += cameratransfer;
-            cam.maxPosition += cameratransfer;
-            other.transform.position += playerchange;
+            cam.minPosition += cameraChange;
+            cam.maxPosition += cameraChange;
+            other.transform.position += playerChange;
         }
     }
 }
