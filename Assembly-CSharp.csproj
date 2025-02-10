@@ -81,8 +81,11 @@
     <Compile Include="Assets\Scripts\Mechanics\DeathZone.cs" />
     <Compile Include="Assets\Scripts\Model\PlatformerModel.cs" />
     <Compile Include="Assets\Scripts\UI\MetaGameController.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObject\vector value.cs" />
+    <Compile Include="Assets\rhys\scene transition.cs" />
     <Compile Include="Assets\Scripts\View\ParallaxLayer.cs" />
     <Compile Include="Assets\Scripts\Gameplay\EnablePlayerInput.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObject\float value.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerJumped.cs" />
     <Compile Include="Assets\Scripts\Core\Simulation.Event.cs" />
     <Compile Include="Assets\Scripts\Mechanics\EnemyController.cs" />
@@ -96,6 +99,7 @@
     <Compile Include="Assets\Scripts\Gameplay\PlayerEnemyCollision.cs" />
     <Compile Include="Assets\Scripts\Mechanics\Health.cs" />
     <Compile Include="Assets\Mod Assets\Mod Resources\Scripts\Backend\TemplateEditorDetection.cs" />
+    <Compile Include="Assets\rhys\vector value.cs" />
     <Compile Include="Assets\Scripts\Mechanics\GameController.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerLanded.cs" />
     <Compile Include="Assets\rhys\CameraTransfer.cs" />

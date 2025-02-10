@@ -9,13 +9,17 @@ public class player_move : MonoBehaviour
     private Rigidbody2D myRigidbody;
     private Vector3 change;
     private Animator animator;
-    
+    public VectorValue startingPosition;
 
 
     private void Start()
     {
         animator = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
+        transform.position = startingPosition.initalValue;
+    
+    
+    
     }
 
 
