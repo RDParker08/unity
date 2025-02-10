@@ -42,6 +42,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Signs
+    uniqueID: 3357040203
+    locked: 0
   - name: housing and items
     uniqueID: 2892763653
     locked: 0
