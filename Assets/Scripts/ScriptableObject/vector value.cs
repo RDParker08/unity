@@ -2,17 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VectorValue : MonoBehaviour
+public class VectorValue : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Vector2 initialValue;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
