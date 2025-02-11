@@ -104,6 +104,7 @@
     <Compile Include="Assets\Scripts\Gameplay\PlayerLanded.cs" />
     <Compile Include="Assets\rhys\CameraTransfer.cs" />
     <Compile Include="Assets\Scripts\Mechanics\KinematicObject.cs" />
+    <Compile Include="Assets\Scripts\Room move.cs" />
     <Compile Include="Assets\Mod Assets\Mod Resources\Scripts\Platformer\PlatformerJumpPad.cs" />
     <Compile Include="Assets\Scripts\View\AnimatedTile.cs" />
     <Compile Include="Assets\Scripts\Core\HeapQueue.cs" />
