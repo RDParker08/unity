@@ -8,7 +8,7 @@ public class scenetransition : MonoBehaviour
 
     public string sceneToLoad;
     public Vector2 playerPosition;
-    public Vector2 playerStorage;
+    public VectorValue playerStorage;
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !other.isTrigger)
