@@ -30,11 +30,9 @@ public class player_move : MonoBehaviour
         animator = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
 
-        
-        //transform.position = startingPosition.initialValue;
-    
-    
-    
+
+        transform.position = startingPosition.initialValue;
+
     }
 
 
@@ -49,7 +47,7 @@ public class player_move : MonoBehaviour
         }
         else if (currentState == PlayerState.walk)
         {
-            updateanimationandmove();
+        updateanimationandmove();
         }
         
         }
@@ -86,9 +84,4 @@ public class player_move : MonoBehaviour
             transform.position + change * speed * Time.deltaTime
             );
     }
-
-
-
-
-
 }
