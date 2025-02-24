@@ -61,12 +61,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Gameplay\PlayerSpawn.cs" />
-    <Compile Include="Assets\rhys\player hit.cs" />
     <Compile Include="Assets\Scripts\TreasureChest.cs" />
     <Compile Include="Assets\Scripts\Mechanics\PlayAudioClip.cs" />
     <Compile Include="Assets\Scripts\Core\Simulation.InstanceRegister.cs" />
     <Compile Include="Assets\Mod Assets\Mod Resources\Scripts\Platformer\PlatformerSpeedPad.cs" />
-    <Compile Include="Assets\rhys\player_move.cs" />
     <Compile Include="Assets\Mod Assets\Mod Resources\Scripts\Platformer\Jiggler.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerEnteredVictoryZone.cs" />
     <Compile Include="Assets\rhys\test.cs" />
@@ -80,14 +78,15 @@
     <Compile Include="Assets\Scripts\Gameplay\HealthIsZero.cs" />
     <Compile Include="Assets\Scripts\Mechanics\PatrolPath.Mover.cs" />
     <Compile Include="Assets\Scripts\Core\Fuzzy.cs" />
+    <Compile Include="Assets\rhys\objects\Pot.cs" />
     <Compile Include="Assets\Scripts\Mechanics\DeathZone.cs" />
     <Compile Include="Assets\Scripts\Model\PlatformerModel.cs" />
     <Compile Include="Assets\Scripts\UI\MetaGameController.cs" />
     <Compile Include="Assets\Scripts\ScriptableObject\vector value.cs" />
+    <Compile Include="Assets\rhys\player animation\player hit.cs" />
     <Compile Include="Assets\rhys\scene transition.cs" />
     <Compile Include="Assets\Scripts\View\ParallaxLayer.cs" />
     <Compile Include="Assets\Scripts\Gameplay\EnablePlayerInput.cs" />
-    <Compile Include="Assets\rhys\pot break.cs" />
     <Compile Include="Assets\Scripts\ScriptableObject\float value.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerJumped.cs" />
     <Compile Include="Assets\Scripts\Core\Simulation.Event.cs" />
@@ -95,6 +94,7 @@
     <Compile Include="Assets\Scripts\Gameplay\PlayerDeath.cs" />
     <Compile Include="Assets\Scripts\Mechanics\TokenController.cs" />
     <Compile Include="Assets\Scripts\Mechanics\TokenInstance.cs" />
+    <Compile Include="Assets\rhys\player animation\player_move.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerTokenCollision.cs" />
     <Compile Include="Assets\Mod Assets\Mod Resources\Scripts\Platformer\SimpleTrigger.cs" />
     <Compile Include="Assets\Scripts\Camera movement.cs" />
