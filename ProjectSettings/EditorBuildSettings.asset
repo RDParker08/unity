@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/rhys/(village down).unity
+    guid: a82f95d74ab4e7842b85c48b13b9084a
   m_configObjects: {}
