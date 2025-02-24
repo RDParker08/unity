@@ -32,7 +32,7 @@ public class player_move : MonoBehaviour
         animator.SetFloat("moveX", 0);
         animator.SetFloat("moveY", -1);
 
-        //transform.position = startingPosition.initialValue;
+        transform.position = startingPosition.initialValue;
 
     }
 
