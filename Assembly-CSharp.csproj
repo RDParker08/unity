@@ -102,7 +102,6 @@
     <Compile Include="Assets\Scripts\Gameplay\PlayerEnemyCollision.cs" />
     <Compile Include="Assets\Scripts\Mechanics\Health.cs" />
     <Compile Include="Assets\Mod Assets\Mod Resources\Scripts\Backend\TemplateEditorDetection.cs" />
-    <Compile Include="Assets\rhys\vector value.cs" />
     <Compile Include="Assets\Scripts\Mechanics\GameController.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerLanded.cs" />
     <Compile Include="Assets\rhys\CameraTransfer.cs" />
