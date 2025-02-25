@@ -74,6 +74,7 @@
     <Compile Include="Assets\Mod Assets\Mod Resources\Scripts\Platformer\EmitParticlesOnLand.cs" />
     <Compile Include="Assets\Scripts\Mechanics\PatrolPath.cs" />
     <Compile Include="Assets\Scripts\UI\MainUIController.cs" />
+    <Compile Include="Assets\Scripts\Context Clue.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerEnteredDeathZone.cs" />
     <Compile Include="Assets\Scripts\Gameplay\HealthIsZero.cs" />
     <Compile Include="Assets\Scripts\Mechanics\PatrolPath.Mover.cs" />
@@ -96,6 +97,7 @@
     <Compile Include="Assets\Scripts\Mechanics\TokenInstance.cs" />
     <Compile Include="Assets\rhys\player animation\player_move.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerTokenCollision.cs" />
+    <Compile Include="Assets\Signal.cs" />
     <Compile Include="Assets\Mod Assets\Mod Resources\Scripts\Platformer\SimpleTrigger.cs" />
     <Compile Include="Assets\Scripts\Camera movement.cs" />
     <Compile Include="Assets\Scripts\Mechanics\VictoryZone.cs" />

@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class sign : MonoBehaviour
 {
+    public Signal contextOn;
+    public Signal contextOff;
     public GameObject dialogBox;
     public Text dialogText;
     public string dialog;
@@ -37,6 +39,7 @@ public class sign : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
+            contextOn.Raise();
             playerInRange = true;
         }
     }
@@ -45,6 +48,7 @@ public class sign : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
+            contextOff.Raise();
             playerInRange = false;
             dialogBox.SetActive(false);
         }
