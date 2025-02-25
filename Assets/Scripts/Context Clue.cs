@@ -5,7 +5,7 @@ using UnityEngine;
 public class ContextClue : MonoBehaviour
 {
     public GameObject contextClue;
-    
+
     public void Enable()
     {
         contextClue.SetActive(true);
@@ -16,4 +16,3 @@ public class ContextClue : MonoBehaviour
         contextClue.SetActive(false);
     }
 }
-
